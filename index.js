@@ -12,3 +12,10 @@ function reverse(str) {
   // return variable
   return reversed;
 }
+
+// reverse string using reverse method
+function reverse(str) {
+  const arr = str.split('');
+  arr.reverse();
+  return arr.join('');
+}
